@@ -1,4 +1,4 @@
-# Configuração do GTM
+# [new]Configuração do GTM
 
 Este documento descreve os passos para a utilização da biblioteca analytics-helper em conjunto com o Google Tag Manager, e as configurações necessárias.
 
