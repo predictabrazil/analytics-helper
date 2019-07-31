@@ -1,0 +1,51 @@
+<script>
+
+  //Suggestion : to prevent conflicts use unique enviroment nome
+  //Example    : <my_enterprise_name>_enviroment
+  //Usage      : window.<my_enterprise_name>_enviroment
+  //Obs.       : only in this file prefer to use as window[my_enviroment] 
+  var my_enviroment = 'safe_enterprise_name';
+
+  window[my_enviroment] = {
+    helperName: {{- GTM - Analytics Helper Name}}
+  }
+  // Tag - Name: init_helper_options
+  function gtag(){dataLayer.push(arguments);}
+  if(window[window[my_enviroment].helperName].options.debug){
+    window.dataLayer = window.dataLayer || [];
+    gtag('js', new Date());
+    gtag('config', {{dinamyc_GA_UA}});
+  }
+
+  window[my_enviroment].events = {
+    registeredEvents: [],
+    supportedEvents: {
+      scroll: 'scroll',
+      click: 'click',
+      fill: 'fill'
+    }
+  }
+
+  window[my_enviroment].tagSpecs = {
+    events:{
+      SCROLL_TO: 'Scroll To',
+      CLICK: 'Click',
+      FILL: 'Fill',
+      FOCUS: 'Focus'
+    },
+    categories:{
+      HEADER: 'header',
+      CONTENT: 'content',
+      SUBSCRIPTION: 'subscription',
+      PURCHASE: 'purchase',
+      CALL_TO_ACTION: 'call to action',
+      LINKS: 'links',
+      SHARE: 'share'
+    },
+    safeFnTagsReference:{
+      events_controller: 'events_controller',
+      dinamyc_events_controller: 'dinamyc_events_controller'
+    }
+  };
+  //# sourceURL=initialization.js
+  </script>

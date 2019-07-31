@@ -25,13 +25,18 @@
   "homepage": "https://github.com/DP6/analytics-helper#readme",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-beautify": "^2.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-include": "^2.3.1",
+    "gulp-include": "^2.4.1",
     "gulp-strip-comments": "^2.5.2",
     "gulp-sync": "^0.1.4",
-    "gulp-uglify": "^3.0.1"
+    "gulp-uglify": "^3.0.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-rename": "^1.4.0"
+  }
 }

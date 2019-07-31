@@ -1,0 +1,22 @@
+Variable Name       : GA_Settings
+Dist file path : dist/gtm/variables/User-DefinedVariables/GoogleAnalyticsSettings/GA_Settings.config.txt
+
+Tag Configuration:
+
+  |- Variable Type : Google Analytics Settings
+  |- Tracking ID   : {{dinamyc_GA_UA}}
+  |- Cookie Domain : auto
+  |- More Settings :
+  |  |- Fields to Set :
+  |  |  |-    Field Name    |    Value
+  |  |  |    forceSSL       |    true
+  |  |  |    hitCallback    |    {{GA_Hit_Callback}}
+  |  |  |    page           |    {{path}}
+  |  |  |    userId         |    {{userId}}
+  |  |- Advertising  :
+  |  |  |- Enable Display Advertising Features : Check
+  |  |- Advanced Configuration :
+  |  |  |- Use Debug Version                : False
+  |  |  |- Enable Enhanced Link Attribution : False
+  |  |  |- Set Tracker Name                 : Check
+  |  |  |  |- Tracker Name : tracker

@@ -1,0 +1,10 @@
+Variable Name  : path
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/path.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : path
+  |- Data Layer Version       : 2
+  |- Set Default Value        : Check
+  |  |- Default Value : {{Page Path}}

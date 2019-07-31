@@ -1,0 +1,8 @@
+Trigger Name       : ga_virtual_pageview
+Dist file path     : dist/gtm/triggers/CustomEvent/ga_virtual_pageview.config.txt
+
+Trigger Configuration:
+
+  |- Trigger Type          : Custom Event
+  |- Event Name            : ga_virtual_pageview
+  |- This trigger fires on : All Custom Events

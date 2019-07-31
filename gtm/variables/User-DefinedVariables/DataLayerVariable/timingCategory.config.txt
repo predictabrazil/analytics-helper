@@ -1,0 +1,8 @@
+Variable Name  : timingCategory
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/timingCategory.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : timingCategory
+  |- Data Layer Version       : 2

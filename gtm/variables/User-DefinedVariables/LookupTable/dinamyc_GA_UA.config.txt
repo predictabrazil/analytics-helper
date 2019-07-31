@@ -1,0 +1,16 @@
+Variable Name       : dinamyc_GA_UA
+Dist file path : dist/gtm/variables/User-DefinedVariables/LookupTable/GA_Settings.config.txt
+
+Tag Configuration:
+
+  |- Variable Type  : Lookup Table
+  |- Input Variable : {{Debug Mode}}
+  |- Lookup Table   : 
+  |  |-    Input    |    Output
+  |  |    true      |    {{- GTM - GA Debug Mode UA}}
+  |  |      1       |    {{- GTM - GA Debug Mode UA}}
+  |  |    false     |    {{- GTM - GA Production UA}}
+  |  |      0       |    {{- GTM - GA Production UA}}
+  |- Set Default Value :
+  |  |- Default Value : {{- GTM - GA Debug Mode UA}} or {{- GTM - GA Production UA}}
+  |  |- Observation - Default Value : choose one UA only. Use you strategy.

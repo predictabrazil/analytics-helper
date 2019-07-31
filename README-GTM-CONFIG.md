@@ -1,10 +1,12 @@
-# [new]Configuração do GTM
+# Configuração do GTM
 
 Este documento descreve os passos para a utilização da biblioteca analytics-helper em conjunto com o Google Tag Manager, e as configurações necessárias.
 
-## Tag principal
+## Pasta *dist* - Tags, triggers, variáveis do sistema e variáveis definidas pelo usuário, todas por tipo
 
-O arquivo final, presente na pasta *build*, seja ele o arquivo de exemplo disponível neste repositório, ou uma versão personalizada gerada via Gulp, deverá ser copiado integralmente para uma Tag Custom HTML.
+
+
+Os arquivos finais, presentes na pasta *dist*, estão separados por tipo de elemento (tag, trigger ou variável) e onde ele será 
 
 Em configurações avançadas, a opção de executar uma única vez por página deverá ser selecionada.
 

@@ -1,0 +1,17 @@
+Tag Name       : pageview_template
+Dist file path : dist/gtm/tags/GoogleAnalytics_UniversalAnalytics/pageview_template.config.txt
+
+Tag Configuration:
+
+  |- Tag Type                  : Google Analytics - Universal Analytics
+  |- Track Type                : Page View
+  |- Google Analytics Settings : {{GA_Settings}} 
+  |- Advanced Settings :
+  |  |- Tag firing options   : Once per page
+  |  |  |- Tag Sequencing :
+  |  |  |  |- Fire a tag before                        : Check
+  |  |  |  |  |- Setup Tag   : analytics_helper
+  |  |  |  |- Fire a tag after pageview_template fires : optional - Check if you want you'll need to create one
+  |  |  |  |  |- Cleanup Tag : optional - the created tag 
+  |- Triggering        :
+  |  |- Firing Triggers : ga_pageview

@@ -1,0 +1,8 @@
+Variable Name  : dataQuality.label
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/dataQuality.label.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : dataQuality.label
+  |- Data Layer Version       : 2

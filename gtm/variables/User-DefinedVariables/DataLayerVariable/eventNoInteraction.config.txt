@@ -1,0 +1,8 @@
+Variable Name  : eventNoInteraction
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/eventNoInteraction.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : eventNoInteraction
+  |- Data Layer Version       : 2

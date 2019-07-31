@@ -1,0 +1,20 @@
+Tag Name       : event_template
+Dist file path : dist/gtm/tags/GoogleAnalytics_UniversalAnalytics/event_template.config.txt
+
+Tag Configuration:
+
+  |- Tag Type                  : Google Analytics - Universal Analytics
+  |- Track Type                : Event
+  |- Category                  : {{eventCategory}}
+  |- Action                    : {{eventAction}}
+  |- Label                     : {{eventLabel}}
+  |- Value                     : {{eventValue}}
+  |- Non-Interaction Hit       : {{eventNoInteraction}}
+  |- Google Analytics Settings : {{GA_Settings}} 
+  |- Advanced Settings :
+  |  |- Tag firing options   : Once per page
+  |  |  |- Tag Sequencing :
+  |  |  |  |- Fire a tag before : Check
+  |  |  |  |  |- Setup Tag : analytics_helper
+  |- Triggering        :
+  |  |- Firing Triggers : ga_event

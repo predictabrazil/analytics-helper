@@ -1,0 +1,18 @@
+Tag Name       : init_helper_options
+Dist file path : dist/gtm/tags/CustomHTML/init_helper_options.txt
+
+Tag Configuration:
+
+  |- Tag Type : CustomHTML
+  |- HTML     : 
+  |  |- Src Path : dist/gtm/tags/core/html/init_helper_options.html
+  |- Advanced Settings :
+  |  |- Tag firing priority : 1
+  |  |- Tag firng options   : Once per page
+  |  |  |- Tag Sequencing :
+  |  |  |  |- Fire a tag before : Check
+  |  |  |  |  |- Setup Tag   : analytics_helper
+  |  |  |  |- Fire a tag after init_helper_options fire : Check
+  |  |  |  |  |- Cleanup Tag : You will place here the tag (you need to create one CustomHTML tag) who will run your project core
+  |- Triggering        :
+  |  |- Firing Triggers : All Pages - Page View

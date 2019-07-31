@@ -1,0 +1,7 @@
+Variable Name       : - GTM - Analytics Helper Name
+Dist file path : dist/gtm/variables/User-DefinedVariables/Constant/- GTM - Analytics Helper Name.config.txt
+
+Tag Configuration:
+
+  |- Variable Type : Constant
+  |- Value         : analyticsHelper{{- GTM - Container ID Sanitized}}

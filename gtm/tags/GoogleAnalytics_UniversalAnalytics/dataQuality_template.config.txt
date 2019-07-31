@@ -1,0 +1,20 @@
+Tag Name       : dataQuality_template
+Dist file path : dist/gtm/tags/GoogleAnalytics_UniversalAnalytics/dataQuality_template.config.txt
+
+Tag Configuration:
+
+  |- Tag Type                  : Google Analytics - Universal Analytics
+  |- Track Type                : Event
+  |- Category                  : {{dataQuality.category}}
+  |- Action                    : {{dataQuality.action}}
+  |- Label                     : {{dataQuality.label}}
+  |- Google Analytics Settings :
+  |  |- Enable overriding settings in this tag : Check
+  |- Tracking ID : {{GA_Settings}} 
+  |- More Settings :
+  |  |- Custom Dimensions
+  |  |  |- Index    |    Dimension Value
+  |  |  |    1      |  {{dataQuality.selector}}
+  |  |  |    2      |  {{dataQuality.event}}
+  |- Triggering        :
+  |  |- Firing Triggers : gtm_dataQuality_event

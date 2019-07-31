@@ -1,0 +1,8 @@
+Variable Name  : dataQuality.action
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/dataQuality.action.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : dataQuality.action
+  |- Data Layer Version       : 2

@@ -1,0 +1,20 @@
+Tag Name       : analytics_helper
+Dist file path : dist/gtm/tags/CustomHTML/analytics_helper.config.txt
+
+Tag Configuration:
+
+  |- Tag Type : CustomHTML
+  |- HTML     : 
+  |  |- Src Path : dist/gtm/tags/core/html/analytics_helper.html
+  |- Advanced Settings :
+  |  |- Tag firing priority : 2
+  |  |- Tag firng options   : Once per page
+  |- Triggering        :
+  |  |- Firing Triggers : All Pages - Page View
+  |  |- Your tag will also fire right before these tags :
+  |  |  |- conversion_event_template
+  |  |OR|- event_template
+  |  |OR|- init_helper_options
+  |  |OR|- pageview_template
+  |  |OR|- timing_template
+  |  |OR|- virtual_pageview_template

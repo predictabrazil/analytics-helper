@@ -1,0 +1,8 @@
+Variable Name  : dataQuality.category
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/dataQuality.category.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : dataQuality.category
+  |- Data Layer Version       : 2

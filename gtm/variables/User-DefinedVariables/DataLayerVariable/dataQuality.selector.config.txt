@@ -1,0 +1,8 @@
+Variable Name  : dataQuality.selector
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/dataQuality.selector.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : dataQuality.selector
+  |- Data Layer Version       : 2

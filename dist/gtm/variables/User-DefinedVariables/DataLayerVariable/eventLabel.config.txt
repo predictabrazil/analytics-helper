@@ -1,0 +1,8 @@
+Variable Name  : eventLabel
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/eventLabel.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : eventLabel
+  |- Data Layer Version       : 2

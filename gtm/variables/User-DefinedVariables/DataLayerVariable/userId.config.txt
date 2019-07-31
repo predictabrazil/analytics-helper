@@ -1,0 +1,10 @@
+Variable Name  : userId
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/userId.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : userId
+  |- Data Layer Version       : 2
+  |- Set Default Value        : Check
+  |  |- Default Value : not_filled

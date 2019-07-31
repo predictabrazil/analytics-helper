@@ -1,0 +1,8 @@
+Trigger Name       : ga_conversion_event
+Dist file path     : dist/gtm/triggers/CustomEvent/ga_conversion_event.config.txt
+
+Trigger Configuration:
+
+  |- Trigger Type          : Custom Event
+  |- Event Name            : ga_conversion_event
+  |- This trigger fires on : All Custom Events

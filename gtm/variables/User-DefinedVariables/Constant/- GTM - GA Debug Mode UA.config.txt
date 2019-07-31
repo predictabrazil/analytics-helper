@@ -1,0 +1,8 @@
+Variable Name       : - GTM - GA Debug Mode UA
+Dist file path : dist/gtm/variables/User-DefinedVariables/Constant/- GTM - GA Debug Mode UA.config.txt
+
+Tag Configuration:
+
+  |- Variable Type : Constant
+  |- Value         : String - The Google Analytics Property UA used only on debug mode (when GTM's built-in variable Debug Mode is true - preview mode)
+  |  |-Observation: Probably you'll need to create this GA Property. The purpose is to keep the GA production database clean

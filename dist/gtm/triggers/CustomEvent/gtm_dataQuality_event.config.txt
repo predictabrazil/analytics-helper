@@ -1,0 +1,8 @@
+Trigger Name       : gtm_dataQuality_event
+Dist file path     : dist/gtm/triggers/CustomEvent/gtm_dataQuality_event.config.txt
+
+Trigger Configuration:
+
+  |- Trigger Type          : Custom Event
+  |- Event Name            : gtm_dataQuality_event
+  |- This trigger fires on : All Custom Events

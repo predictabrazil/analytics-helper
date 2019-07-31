@@ -1,0 +1,7 @@
+Trigger Name       : ga_conversion_event
+Dist file path     : gtm/triggers/CustomEvent/ga_conversion_event.config.txt
+
+Trigger Configuration:
+
+  |- Trigger Type          : PageView
+  |- This trigger fires on : All Page Views

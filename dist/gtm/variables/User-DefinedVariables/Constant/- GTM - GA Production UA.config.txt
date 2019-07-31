@@ -1,0 +1,7 @@
+Variable Name       : - GTM - GA Production UA
+Dist file path : dist/gtm/variables/User-DefinedVariables/Constant/- GTM - GA Production UA.config.txt
+
+Tag Configuration:
+
+  |- Variable Type : Constant
+  |- Value         : String - The Google Analytics Property UA used only in production mode (when GTM's built-in variable Debug Mode is false - not preview mode)

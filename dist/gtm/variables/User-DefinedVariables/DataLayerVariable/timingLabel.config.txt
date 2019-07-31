@@ -1,0 +1,8 @@
+Variable Name  : timingLabel
+Dist file path : dist/gtm/variables/User-DefinedVariables/DataLayerVariable/timingLabel.config.txt
+
+Tag Configuration:
+
+  |- Variable Type            : Data Layer Variable
+  |- Data Layer Variable Name : timingLabel
+  |- Data Layer Version       : 2

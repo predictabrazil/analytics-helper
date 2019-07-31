@@ -1,0 +1,7 @@
+Variable Name       : - GTM - Container ID Sanitized
+Dist file path : dist/gtm/variables/User-DefinedVariables/CustomJavascript/- GTM - Container ID Sanitized.config.txt
+
+Tag Configuration:
+
+  |- Variable Type     : Custom Javascript
+  |- Custom Javascript : gtm/variables/CustomJavascript/core/- GTM - Container ID Sanitized.js
